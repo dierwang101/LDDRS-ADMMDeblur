@@ -1,10 +1,39 @@
-# Full-Time Monocular Road Detection Using Zero-Distribution Prior of Angle of Polarization. ECCV2020
+# The code used in LTVSR for deblurring and mosaic removal of DOFP images.
 
-## We offer two ways to download the LDDRS dataset.
+## Usage: 
+
+  Modify the parameter `filename` in `demo_ADMMDeblur.m` and run it.
+
+## Acknowledgements: 
+  
+  Acknowledgements: We would like to express our gratitude for the open-source contributions of the `LDDRS` project and the `PNP-BM3D` project.
+
+## Citation
+
+```
+@article{Wang:24,
+    title = {LVTSR: learning visible image texture network for infrared polarization super-resolution imaging},
+    author = {Xuesong Wang and Yating Chen and Jian Peng and Jiangtao Chen and Feng Huang and Xianyu Wu},
+    journal = {Opt. Express},
+    volume = {32},
+    number = {17},
+    pages = {29078--29098},
+    year = {2024},
+    publisher = {Optica Publishing Group},
+}
+```
+
+---
+---
+---
+
+## Full-Time Monocular Road Detection Using Zero-Distribution Prior of Angle of Polarization. ECCV2020
+
+### We offer two ways to download the LDDRS dataset.
 - baidu(https://pan.baidu.com/s/1EiYgKmpPQuSLmP1VUdMlkQ     Extraction code: 2113 )
 - google(https://drive.google.com/file/d/1rkHRlwHQbkrh-NtSof5H0DNuTKQy_189/view?usp=sharing)
 
-## Content Description
+### Content Description
 - Folders:
 	- "RAW" folder : Original LWIR DoFP images of road scene with 512×640 resolution in 14 bits.
 	- "label" folder : Corresponding label of road region of 2,113 images. 1 represents road and 0 represents background.
@@ -24,7 +53,7 @@
 [1] Li, N., Zhao, Y., Pan, Q., Kong, S.G.: Demosaicking DoFP images using Newton's polynomial interpolation and polarization difference model. Optics Express 27(2), 1376–1391 (2019)
 
 
-### Citation
+#### Citation
 
 ```
 @inproceedings{li2020full,
